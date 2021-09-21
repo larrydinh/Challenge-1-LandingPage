@@ -1,7 +1,7 @@
 // const btnHamburger = document.querySelector(`#btnHamburger`);
 const header = document.getElementById('header');
 const overlay = document.querySelector('.overlay');
-const noscroll = document.querySelector('.noscroll');
+const noscroll = document.querySelector('body');
 const fadeElements = document.querySelectorAll('.has-fade');
 
 

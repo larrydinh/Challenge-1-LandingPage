@@ -1,0 +1,36 @@
+.feature {
+    &__intro {
+        @include breakpoint-up(large) {
+            width: 60%;
+            margin-bottom: 3.75rem;
+        }
+    }
+    &__grid {
+        @include breakpoint-up(medium) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    &__item {
+        border: 1px solid red;
+        padding: 0.9375rem;
+        @include breakpoint-up(medium) {
+            flex: 0 0 50%;
+        }
+        @include breakpoint-up(large) {
+            flex: 1;
+        }
+    }
+    &__icon {
+        margin-bottom: 1.875rem;
+        text-align: center;
+        @include breakpoint-up(large) {
+            margin-bottom: 2.75rem;
+            text-align: left;
+        }
+    }
+    &__title {
+    }
+    &__description {
+    }
+}
