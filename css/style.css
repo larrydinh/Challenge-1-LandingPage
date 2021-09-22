@@ -229,6 +229,21 @@
   }
 }
 
+.feature__title {
+  font-weight: 300;
+  line-height: 1.15;
+  color: #2d314d;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 64em) {
+  .feature__title {
+    font-size: 1.5rem;
+    margin-bottom: 2.125rem;
+  }
+}
+
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
@@ -250,6 +265,7 @@ body {
   font-weight: 300;
   color: #9698a6;
   line-height: 1.3;
+  min-height: 300vh;
 }
 
 @media (min-width: 64em) {
